@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffe3ed">
+  <meta name="description" content="Con Mucho Amor Para Mi GRAN Amor">
+  <title>Para Valen ♡</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Reproductor de audio oculto para fondo global -->
+  <audio id="love-song" preload="auto" loop>
+  <source src="assets/cancion.mp3" type="audio/mpeg">
+</audio>
+
+  <div class="floating-hearts" aria-hidden="true"></div>
+  <main class="site-shell">
+    <header class="topline">
+      <span class="tiny-heart">♡</span>
+      <span>una virgada impresionante hecha para vos</span>
+      <span class="tiny-heart">♡</span>
+    </header>
+
+    <section class="screen active" id="inicio" aria-labelledby="inicio-title">
+      <div class="hero-heart" aria-hidden="true">♡</div>
+      <p class="eyebrow">para el amor de todas mis vidas</p>
+      <h1 id="inicio-title">Valentina Gonfiantini</h1>
+      <p class="nickname">(Gaturra ♡)</p>
+      <div class="divider-heart">────── ♡ ──────</div>
+      <p class="lead">Hay algo que hace evidentemente un BUEN tiempo tengo ganas de decirte y esta es una de las maneras mas YO que encontre para hacerlo...</p>
+      <button class="btn primary" data-go="carta">VENI MIRA MIRA <span>♡</span></button>
+      <p class="microcopy">Con todo mi amor, solo para vos.</p>
+    </section>
+
+    <section class="screen" id="carta" aria-labelledby="carta-title">
+      <p class="eyebrow">un pedacito de lo que mi corazón siente por vos</p>
+      <h2 id="carta-title">Leete esto</h2>
+      <article class="letter-paper">
+        <p>Valen,</p>
+        <p>Desde que te conocí, hay momentos que se sienten distintos. Me encanta como nos vamos conociendo poco a poco, como compartimos nuestros dias, como nos reimos y descubro a cada momento todas esas pequeñas cosas que te hacen ser vos.</p>
+        <p>Hoy no quiero apurar nada ni prometerte una historia perfecta. Quiero simplemente decir que te elijo hoy y siempre con honestidad y amor. Quiero cuidarte, escucharte y construir algo lindo a nuestro ritmo que hasta ahora viene siendo tan caracteristico.</p>
+        <p>Gracias por aparacerte en mi vida, por cada sonrisa y por hacer que me ilusione con todo lo que sueño construir a tu lado.</p>
+        <p class="letter-signoff">Con todo mi amor,<br><strong>TU Agus que te ama con locura ♡</strong></p>
+      </article>
+      <div class="nav-buttons">
+        <button class="btn secondary" data-go="inicio">← Pa atras</button>
+        <button class="btn primary" data-go="recuerdos">Veni, segui por aca♡</button>
+      </div>
+    </section>
+
+    <section class="screen" id="recuerdos" aria-labelledby="recuerdos-title">
+      <p class="eyebrow">cada historia empieza con algo.</p>
+      <h2 id="recuerdos-title">Y la nuestra dice asi</h2>
+      <p class="section-intro">Acompañame a hacer un recorrido por los momentos mas memorables que hemos vivido hasta ahora</p>
+      <div class="timeline">
+        <article class="memory">
+          <span class="timeline-dot"></span><p class="memory-date">DESPUES DE LA GHOSTEADA.</p>
+          <h3>Cuando empezamos a hablar</h3>
+          <p>El día en que todo en mi vida empezo a cobrar sentido.</p>
+          <small>Aquel raro pero lindo 14 de julio de 2026 donde pasamos de un "que fachaa" a conversaciones que hoy deseo que nunca terminen</small>
+        </article>
+        <article class="memory">
+          <span class="timeline-dot"></span><p class="memory-date">EL PRIMER ENCUENTRO ESPECIAL</p>
+          <h3>Nuestra Primera Cita</h3>
+          <p>Ese 21 de Agosto donde yo queria parecer tranquila, cuando me estaba muriendo de los nervios</p>
+          <small>Guardo ese momento en mi memoria, como la primera de muchas citas mas que nos esperan. Anhelando mas momentos que se sientan tan eternos como vos sentias ese helado</small>
+        </article>
+        <article class="memory">
+          <span class="timeline-dot"></span><p class="memory-date">Y DESPUES DE VARIAS SALIDAS MAS</p>
+          <h3>El Primer Beso</h3>
+          <p>Un 4 de Septiembre que conservo en mi corazon con mucha felicidad </p>
+          <small>En ese paseo, que aunque se vea de muy mala muerte, fue el testigo del inicio de mis muestras de amor favoritas.Esa sensacion de nervios en el estomago y en el corazon que siento hasta el dia de hoy cada que te beso.</small>
+        </article>
+        <article class="memory">
+          <span class="timeline-dot"></span><p class="memory-date">Y LO QUE NOS FALTA MAMI</p>
+          <h3>Todavía nos queda tanto...</h3>
+          <p>Tengo ganas de que mas lugares sean testigos de nuestra historia, de que juntas formemos una vida repleta de risas, compañia y amor puro.</p>
+        </article>
+      </div>
+      <div class="nav-buttons">
+        <button class="btn secondary" data-go="carta">← Leer otra vez </button>
+        <button class="btn primary" data-go="sorpresas">Hay más para vos ✨</button>
+      </div>
+    </section>
+
+    <section class="screen" id="sorpresas" aria-labelledby="sorpresas-title">
+      <p class="eyebrow">A ver, aca hay cositas 👀</p>
+      <h2 id="sorpresas-title">Recordatorios Importantes!!!!</h2>
+      <p class="section-intro">Tocá las tarjetas. Cada una quiere que te acuerdes que...</p>
+      <div class="surprise-grid">
+        <button class="surprise-card" data-message="Podes llamarme o buscarme siempre y te aseguro que voy a dar la vida por sacarte una sonrisa.">
+          <span class="surprise-icon">😿</span><strong>Cuando estes triste</strong><small>recorda que</small>
+        </button>
+        <button class="surprise-card" data-message="Podes contar con que voy a estar ahi para ayudarte a ocultar el cuerpo y si el enojo es conmigo, te digo donde ocultarme :D.">
+          <span class="surprise-icon">😾</span><strong>Cuando estes enojada</strong><small>Y sientas ganas de matar a alguien</small>
+        </button>
+        <button class="surprise-card" data-message="Buscame, porque no dudes en que voy a pasar el tiempo que sea necesario para calmarte o hacerte sentir mejor. Recordandote siempre lo hermosa e inteligente que sos.">
+          <span class="surprise-icon">😰</span><strong>Cuando te sientas ansiosa</strong><small>Y pienses que ya no podes mas</small>
+        </button>
+        <button class="surprise-card" data-message="Ahi voy a estar yo, escuchandote y sintiendome orgullosa de cada cosita que logres.">
+          <span class="surprise-icon">😸</span><strong>Cuando estes feliz</strong><small>Y quieras compartirlo con alguien.</small>
+        </button>
+      </div>
+      <div class="message-box" id="surprise-message" role="status" aria-live="polite"></div>
+      <div class="nav-buttons">
+        <button class="btn secondary" data-go="recuerdos">← Recuerdos</button>
+        <button class="btn primary" id="reveal-question">Ufff el momento ha llegado 🥁  🥁  🥁 </button>
+      </div>
+    </section>
+
+    <section class="screen final-screen" id="pregunta" aria-labelledby="question-title">
+      <div class="final-sparkles" aria-hidden="true">✦ ♡ ✧</div>
+      <p class="eyebrow">Este virgodetalle me lleva a preguntarte:</p>
+      <h2 id="question-title">Valen, ¿puedo ser tu novia?</h2>
+      <p class="final-copy">Me gustaría seguir conociéndote, acompañarte y construir algo lindo con vos, a nuestro ritmo que nos caracteriza. Me darias a mi el honor tan grande de poder decir que soy tu novia? </p>
+      <div class="final-actions">
+        <button class="btn primary big" id="yes-button">Por supuesto, me encantaria!</button>
+        <button class="btn gentle" id="time-button">No, gracias. Flashaste wacha.</button>
+      </div>
+      <p class="microcopy">Lo importantee es que te sientas cómoda con tu respuesta.</p>
+    </section>
+
+    <section class="screen yes-screen" id="respuesta-si" aria-labelledby="yes-title">
+      <div class="celebration-heart" aria-hidden="true">♥</div>
+      <p class="eyebrow">Que perrita tan obediente</p>
+      <h2 id="yes-title">¡GRACIAS MI AMOR! ♡</h2>
+      <h3>Me alegra que me estes concediendo el honor de ser tu novia.</h3>
+      <p>Gracias por elegirme. Ojalá este sea el comienzo oficial de una historia preciosa</p>
+      <p class="letter-signoff">Te amo muchísimo. ♡</p>
+      <button class="btn secondary" data-go="inicio">Volver al inicio</button>
+    </section>
+
+    <section class="screen" id="respuesta-tiempo" aria-labelledby="time-title">
+      <div class="hero-heart" aria-hidden="true">♡</div>
+      <h2 id="time-title">Está bien, Valen. 💗</h2>
+      <p class="final-copy">No tenés que responder antes de estar lista. Gracias por leer todo esto; lo que siento por vos no necesita apurarte.</p>
+      <button class="btn secondary" data-go="inicio">Volver al inicio</button>
+    </section>
+
+    <footer class="footer">hecho con mis patas excesivamente sensuales<span>♡</span></footer>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
