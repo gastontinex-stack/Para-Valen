@@ -103,5 +103,11 @@ function iniciarCancion() {
 }
 
 // Escuchar cualquier toque o clic en la página para iniciar la canción
-document.addEventListener("click", iniciarCancion, { once: true });
-document.addEventListener("pointerdown", iniciarCancion, { once: true });
+document.addEventListener('click', function() {
+  const audio = document.getElementById('love-song');
+  if (audio && audio.paused) {
+    audio.play().catch(error => {
+      console.log("Error intentando reproducir el audio:", error);
+    });
+  }
+}, { once: true }); // 'once: true' hace que solo se ejecute con el primer clic
